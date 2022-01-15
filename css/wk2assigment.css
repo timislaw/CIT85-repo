@@ -1,0 +1,12 @@
+a:link{
+    color: seagreen;
+}
+a:hover{
+    color: seashell;
+}
+a:visited{
+    color: yellowgreen;
+}
+a:active{
+    color: violet;
+}

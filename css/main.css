@@ -1,5 +1,5 @@
 li {
-    color: bisque;
+    color: rgb(192, 112, 14);
 }
 
 .li6 {
@@ -11,7 +11,7 @@ li {
 }
 
 .li4 {
-    color:yellow ;    
+    color:rgb(121, 121, 57) ;    
 }
 
 .li3 {
@@ -24,4 +24,8 @@ li {
 
 .li1 {
     color: red;    
+}
+
+.li6:hover{
+    color: saddlebrown;
 }
