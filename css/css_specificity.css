@@ -1,0 +1,50 @@
+/* universal selector, isn't shown where on specificity calc, but since it applies to all elements, I'm going to assume level 2 specificity */
+* {
+    color: firebrick;
+    font-family: monospace;
+}
+/* element selector, level 1  */
+p {
+    width: 250px;
+    height: 500px;
+    border: thick double;
+    color: red;
+}
+/* element selector, level 1 specificity */
+h1 {
+    width: 500px;
+    height: 500px;
+    border: thick double;
+    color: blue;
+}
+/* element selector, level 1 specificity */
+div {
+    width: auto;
+    height: auto;
+    border: thick double;
+    color: green;
+}
+/* class selector, level 2 */
+.very {
+    color: hotpink;
+}
+/* pseudo-class selector, level 2 */
+a:link {
+    color: darkslategray;
+}
+/* pseudo-class selector, level 2*/
+a:visited {
+    text-decoration: green underline;
+}
+/* pseudo-class selector, level 2 */
+a:hover{
+    background-color: yellow;
+}
+/* pseudo-class selector, level 2 */
+a:active {
+    background-color: red;
+}
+/* ID selector, level 3 */
+#divwithid {
+    color: indianred;
+}
