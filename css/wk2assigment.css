@@ -33,3 +33,11 @@ li:only-child:hover{
 li:nth-child(2n+1){
     background-color: yellow;
 }
+p::first-letter{
+    font-size: x-large;
+    font-family: fantasy;
+
+}
+p::first-line{
+    text-decoration: darkolivegreen dotted underline;
+}
