@@ -1,12 +1,35 @@
 a:link{
     color: seagreen;
 }
-a:hover{
+a:visited{
     color: seashell;
 }
-a:visited{
+a:hover{
     color: yellowgreen;
 }
 a:active{
     color: violet;
+}
+
+li:first-child{
+    color: tomato;
+}
+li:last-child{
+    color: turquoise;
+}
+li:nth-child(even){
+    font-weight: lighter;
+}
+li:nth-child(odd){
+    font-weight:900;
+}
+li:nth-child(4){
+    font-size: larger;
+}
+li:only-child:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cyan;
+}
+li:nth-child(2n+1){
+    background-color: yellow;
 }
