@@ -1,0 +1,25 @@
+/* my attempt at lemons before looking up a few solutions for pointier edges */
+/* div {
+    width:10rem;
+    height:25rem;
+    border-radius: 50%;
+    border: 5rem;
+    background-color: yellow;
+    margin: 5rem;
+    display: inline-block;
+
+} */
+/* similar solution to what I found on codepen */
+div {
+    width:100px;
+    height:100px;
+    border-radius: 75px 15px;
+    border: 1px solid;
+    background-color: yellow;
+    margin: 5rem;
+    display: inline-block;
+
+}
+/* i realized I probably shouldn't have used rem as it scales. It didn't really seem apparent that a black border should be in there, but glad I found that. 
+I knew to place inline-block for display to line them up. Lastly, for border-radius, I totally forgot you can use multiple 
+sizes to get granular on the radius. */
