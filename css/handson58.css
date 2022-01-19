@@ -1,0 +1,13 @@
+div {
+    width: 400px ;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px 20px 30px 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=67773a9d419786091c958b2ad08eae5e");
+};
+
+div.divvy {
+    box-sizing: border-box;
+};

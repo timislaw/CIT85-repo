@@ -1,0 +1,27 @@
+html {
+    background-color: blue;
+}
+
+body {
+    background-color: limegreen;
+    border: 5px solid black;
+    margin: 0 auto;
+    width: 60%;
+}
+
+img {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 10px ridge gold;
+}
+
+#first {
+    color: #0266C8;
+
+}
+
+#second {
+    color: #F90101;
+}
