@@ -1,0 +1,35 @@
+h1.header{
+    color: red;
+}
+
+h1#header {
+    color: blue;
+}
+/* h1 with id wins over h1 with class because of specificity of 101 compared to 11 */
+
+/* p {
+    color: brown;
+} */
+/* 
+.para {
+    color: cadetblue;
+} */
+
+/* id wins with specificity of 100 over element specificity 1 -- 
+and when id is changed to a class, the specificity of class is 10 which beats out the element spec of 1*/
+
+/* p[title] {
+    color: blue;
+} */
+
+/* element spec 1 attr + element spec 11 with priority */
+
+p.para{
+    color: blue;
+}
+
+p[title] {
+    color: red;
+}
+
+/* both tied with a specificity of 11, but since attribute came later, it got priority */
