@@ -26,6 +26,44 @@ li {
     color: red;    
 }
 
-.li6:hover{
+.li6:hover {
     color: saddlebrown;
+}
+
+
+div:nth-child(4n+1) {
+    background-color: red;
+    height: 2rem;
+    width: 4rem;
+    display: inline-block;
+    /* margin: 1rem; */
+    border-radius: 40%;
+    border: black solid 1px;
+}
+div:nth-child(4n+2) {
+    background-color: blue;
+    height: 2rem;
+    width: 4rem;
+    display: inline-block;
+    /* margin: 1rem; */
+    border-radius: 40%;
+    border: black solid 1px;
+}
+div:nth-child(4n+3) {
+    background-color: yellow;
+    height: 2rem;
+    width: 4rem;
+    display: inline-block;
+    /* margin: .5rem; */
+    border-radius: 40%;
+    border: black solid 1px;
+}
+div:nth-child(4n+4) {
+    background-color: green;
+    height: 2rem;
+    width: 4rem;
+    display: inline-block;
+    /* margin: 1rem; */
+    border-radius: 40%;
+    border: black solid 1px;
 }
