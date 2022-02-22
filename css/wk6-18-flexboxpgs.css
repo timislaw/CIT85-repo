@@ -4,7 +4,7 @@ body {
   border: 0.2rem solid red;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   width: 2194px;
   height: 1234px;
 }
