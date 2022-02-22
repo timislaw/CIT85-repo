@@ -2,7 +2,7 @@ body {
   display: flex;
   margin: auto;
   border: 0.2rem solid red;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   width: 2194px;
