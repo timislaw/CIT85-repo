@@ -3,7 +3,7 @@ body {
   margin: auto;
   border: 0.2rem solid red;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   width: 2194px;
   height: 1234px;
