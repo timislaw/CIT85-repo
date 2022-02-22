@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+div#grow {
+  flex-grow: 2;
+}
+
+div {
+  border: 0.2rem black solid;
+  padding: 2rem;
+  flex-grow: 1;
+  width: 400px;
+}
