@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  margin: auto;
+  border: 0.2rem solid red;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 2194px;
+  height: 1234px;
+}
+
+div.first {
+  background-color: salmon;
+  padding: 2rem;
+  margin: 2rem;
+  border: 0.2rem black solid;
+  font-size: 3rem;
+  font-weight: bold;
+  width: 75px;
+  height: 75px;
+}
