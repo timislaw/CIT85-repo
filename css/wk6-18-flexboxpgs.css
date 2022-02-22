@@ -2,11 +2,13 @@ body {
   display: flex;
   margin: auto;
   border: 0.2rem solid red;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 2194px;
+  /* width: 2194px; */
   height: 1234px;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 div.first {
@@ -16,6 +18,10 @@ div.first {
   border: 0.2rem black solid;
   font-size: 3rem;
   font-weight: bold;
-  width: 75px;
-  height: 75px;
+  /* width: 75px;
+  height: 75px; */
+  flex-grow: 1;
+}
+div#first {
+  flex-grow: 2;
 }
