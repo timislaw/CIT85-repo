@@ -1,0 +1,73 @@
+body {
+    margin: 0%;
+}
+
+div.outer {
+    border: .2rem dashed red;
+    height: 720px;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+#one {
+    height: 120px;
+    width: 100%;
+    border: .1rem solid black;
+    background-color: rgb(243, 85, 17);
+    line-height: 7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;    
+}
+
+
+#two {
+    height: 120px;
+    width: 100%;
+    border: .1rem solid black;
+    background-color: skyblue;
+    line-height: 7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#three {
+    height: 120px;
+    width: 100%;
+    border: .1rem solid black;
+    background-color: limegreen;
+    line-height: 7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#four {
+    height: 120px;
+    width: 100%;
+    border: .1rem solid black;
+    background-color: yellow;
+    line-height: 7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#five {
+    height: 120px;
+    width: 100%;
+    border: .1rem solid black;
+    background-color: mediumorchid;
+    line-height: 7rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
