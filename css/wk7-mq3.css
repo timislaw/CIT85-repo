@@ -1,0 +1,17 @@
+/* body {
+    display: flex;
+    flex-flow: column nowrap;
+} */
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav {
+    width: 20%;
+}
+
+main {
+    width: 80%;
+}
