@@ -1,0 +1,29 @@
+header, article, aside, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background: rgb(255, 107, 44);
+}
+
+article {
+    text-align: left;
+    background: deepskyblue;
+}
+
+footer {
+    background-color: rgb(78, 246, 137);
+}
+
+aside:nth-child(3) {
+    background: yellow;
+}
+
+aside:nth-child(4) {
+    background: hotpink;
+}
+
+body {
+    font-weight: bold;
+}
