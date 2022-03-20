@@ -1,0 +1,14 @@
+html{
+    background-color: brown;
+    height: 2500px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer{
+    position: fixed;
+    background-color: transparent;
+    top: 575px;
+    left:600px;
+}

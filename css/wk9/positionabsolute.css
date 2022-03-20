@@ -1,0 +1,21 @@
+html{
+    background-color: brown;
+}
+
+#abso{
+    position: absolute;
+    height: 60px;
+    background-color: yellow;
+    right: 250px;
+    bottom: 50px;
+}
+
+#position{
+    position: fixed;
+    top: 250px;
+    left: 500px;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+
+}
