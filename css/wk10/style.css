@@ -1,0 +1,26 @@
+main, footer, img {
+    border: 3px red solid;
+    margin: 20px;
+}
+
+footer{
+overflow: auto;
+}
+
+img{
+    border: 3px red solid;
+}
+
+#right{
+    float: right;
+}
+
+#left{
+    float: left;
+}
+
+span{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
