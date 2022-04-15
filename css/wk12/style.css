@@ -18,3 +18,48 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/* 
+header {
+    display: flex;
+    flex-flow: row wrap;
+} */
+/* nav {
+    display: flex;
+    flex-flow: row wrap;
+} */
+.ul-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    border: blue solid 2px;
+    width: 100%;
+    background-color: aqua;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.ul-header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 10px;
+    border: blue solid 2px;
+}
+
+body {
+    height: 1080px;
+    width: 1920px;
+}
