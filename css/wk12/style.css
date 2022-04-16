@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -39,7 +42,7 @@ header {
     padding: 10px;
     border: blue solid 2px;
     width: 100%;
-    background-color: aqua;
+    background-color: #f7e9b0;
 }
 li {
     text-decoration: none;
@@ -49,6 +52,8 @@ li {
 }
 a {
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px;
 }
 
 .ul-header{
@@ -57,9 +62,68 @@ a {
     justify-content: flex-end;
     padding: 10px;
     border: blue solid 2px;
+    background-color: #f7e9b0;
+    width: 100%;
 }
 
 body {
     height: 1080px;
-    width: 1920px;
+    background-color: #a69963;
 }
+
+
+p {
+    font-family: 'Square Peg', cursive;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+a:link {
+    color: #b8b197;
+  }
+  
+
+  a:visited {
+    color: #a69963;
+  }
+  
+  a:hover {
+    color: #a69963;
+  }
+  
+  a:active {
+    color: #b8b197;
+  }
+
+  main {
+      display: flex;
+      flex-flow: row-reverse;
+      align-items: center;
+  }
+  /* img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  } */
+
+  .body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(/imgs/pexels-monique-laats-733090.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  h1 {
+      font-size: 50px;
+      position: relative;
+      top: 300px;
+  }
+
+  .main {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
